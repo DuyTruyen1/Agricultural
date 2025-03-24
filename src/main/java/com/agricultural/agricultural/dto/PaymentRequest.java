@@ -1,7 +1,6 @@
 package com.agricultural.agricultural.dto;
 
-import com.agricultural.agricultural.entity.PaymentMethod;
-import jakarta.validation.constraints.NotBlank;
+import com.agricultural.agricultural.domain.enumeration.PaymentMethod;
 import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;
 import lombok.Getter;

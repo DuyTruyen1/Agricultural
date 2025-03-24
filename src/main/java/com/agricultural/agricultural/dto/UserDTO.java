@@ -1,6 +1,6 @@
 package com.agricultural.agricultural.dto;
 
-import com.agricultural.agricultural.entity.User;
+import com.agricultural.agricultural.domain.entity.User;
 import lombok.*;
 
 @Data
@@ -14,6 +14,7 @@ public class UserDTO {
     private String password;
     private String email;
     private String phone;
+    private String imageUrl;
     private String roleName; // Thay vì trả về cả object Role, chỉ lấy role name
 
 
@@ -23,6 +24,7 @@ public class UserDTO {
         this.password = user.getPassword();
         this.email = user.getEmail();
         this.phone = user.getPhone();
+        this.imageUrl = user.getImageUrl();
         this.roleName = user.getRole() != null ? user.getRole().getName() : "UNKNOWN"; // Xử lý role null
     }
 

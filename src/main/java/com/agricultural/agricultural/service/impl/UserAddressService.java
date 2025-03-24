@@ -1,8 +1,8 @@
 package com.agricultural.agricultural.service.impl;
 
 import com.agricultural.agricultural.dto.UserAddressDTO;
-import com.agricultural.agricultural.entity.User;
-import com.agricultural.agricultural.entity.UserAddress;
+import com.agricultural.agricultural.domain.entity.User;
+import com.agricultural.agricultural.domain.entity.UserAddress;
 import com.agricultural.agricultural.mapper.UserAddressMapper;
 import com.agricultural.agricultural.repository.IUserAddressRepository;
 import com.agricultural.agricultural.repository.IUserRepository;

@@ -1,6 +1,6 @@
 package com.agricultural.agricultural.repository;
 
-import com.agricultural.agricultural.entity.Role;
+import com.agricultural.agricultural.domain.entity.Role;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

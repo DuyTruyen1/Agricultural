@@ -1,6 +1,6 @@
 package com.agricultural.agricultural.repository.impl;
 
-import com.agricultural.agricultural.entity.User;
+import com.agricultural.agricultural.domain.entity.User;
 import com.agricultural.agricultural.repository.IUserRepository;
 import jakarta.persistence.EntityNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;

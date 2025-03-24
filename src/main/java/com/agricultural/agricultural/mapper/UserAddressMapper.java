@@ -1,7 +1,7 @@
 package com.agricultural.agricultural.mapper;
 
 import com.agricultural.agricultural.dto.UserAddressDTO;
-import com.agricultural.agricultural.entity.UserAddress;
+import com.agricultural.agricultural.domain.entity.UserAddress;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.factory.Mappers;

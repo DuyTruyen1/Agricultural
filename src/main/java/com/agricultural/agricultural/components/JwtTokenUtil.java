@@ -1,6 +1,6 @@
 package com.agricultural.agricultural.components;
 
-import com.agricultural.agricultural.entity.User;
+import com.agricultural.agricultural.domain.entity.User;
 import com.agricultural.agricultural.exception.InvalidParamException;
 import io.jsonwebtoken.*;
 import io.jsonwebtoken.io.Encoders;

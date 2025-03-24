@@ -1,4 +1,4 @@
-package com.agricultural.agricultural.entity;
+package com.agricultural.agricultural.domain.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

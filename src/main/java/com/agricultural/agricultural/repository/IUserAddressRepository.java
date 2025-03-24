@@ -1,6 +1,6 @@
 package com.agricultural.agricultural.repository;
 
-import com.agricultural.agricultural.entity.UserAddress;
+import com.agricultural.agricultural.domain.entity.UserAddress;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

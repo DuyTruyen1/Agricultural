@@ -1,7 +1,7 @@
 package com.agricultural.agricultural.repository;
 
-import com.agricultural.agricultural.entity.Order;
-import com.agricultural.agricultural.entity.OrderStatus;
+import com.agricultural.agricultural.domain.entity.Order;
+import com.agricultural.agricultural.domain.enumeration.OrderStatus;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;

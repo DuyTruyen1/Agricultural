@@ -1,5 +1,7 @@
-package com.agricultural.agricultural.entity;
+package com.agricultural.agricultural.domain.entity;
 
+import com.agricultural.agricultural.domain.enumeration.PaymentMethod;
+import com.agricultural.agricultural.domain.enumeration.PaymentStatus;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;

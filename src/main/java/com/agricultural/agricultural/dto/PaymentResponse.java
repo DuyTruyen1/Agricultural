@@ -1,7 +1,7 @@
 package com.agricultural.agricultural.dto;
 
-import com.agricultural.agricultural.entity.PaymentMethod;
-import com.agricultural.agricultural.entity.PaymentStatus;
+import com.agricultural.agricultural.domain.enumeration.PaymentMethod;
+import com.agricultural.agricultural.domain.enumeration.PaymentStatus;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

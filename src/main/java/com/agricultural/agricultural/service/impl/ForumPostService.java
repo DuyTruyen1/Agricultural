@@ -1,16 +1,14 @@
 package com.agricultural.agricultural.service.impl;
 
 import com.agricultural.agricultural.dto.ForumPostDTO;
-import com.agricultural.agricultural.entity.ForumPost;
-import com.agricultural.agricultural.entity.User;
+import com.agricultural.agricultural.domain.entity.ForumPost;
+import com.agricultural.agricultural.domain.entity.User;
 import com.agricultural.agricultural.repository.ForumPostRepository;
 import com.agricultural.agricultural.repository.impl.UserRepository;
 import com.agricultural.agricultural.service.IForumPostService;
 import com.agricultural.agricultural.mapper.ForumPostMapper;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UserDetailsService;
@@ -40,7 +38,7 @@ public class ForumPostService implements IForumPostService {
         Optional<User> userOptional = userRepository.findByUserName(username);
 
         if (userOptional.isEmpty()) {
-            throw new RuntimeException("User not found");
+            throw new RuntimeException("Người dùng không tồn tại");
         }
 
         User user = userOptional.get();

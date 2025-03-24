@@ -46,6 +46,13 @@ jwt:
 api:
   prefix: api/v1
 
+# Cloudinary Configuration
+cloudinary:
+  cloud-name: your-cloud-name
+  api-key: your-api-key
+  api-secret: your-api-secret
+  folder: user-avatars
+
 
 
 

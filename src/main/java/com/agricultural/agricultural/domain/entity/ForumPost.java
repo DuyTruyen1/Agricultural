@@ -1,4 +1,4 @@
-package com.agricultural.agricultural.entity;
+package com.agricultural.agricultural.domain.entity;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import jakarta.persistence.*;
@@ -6,7 +6,6 @@ import lombok.*;
 import lombok.experimental.FieldDefaults;
 
 //import java.security.Timestamp;
-import java.sql.Time;
 import java.sql.Timestamp;
 
 @Entity

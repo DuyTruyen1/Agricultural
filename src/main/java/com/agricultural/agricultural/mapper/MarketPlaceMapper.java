@@ -1,7 +1,7 @@
 package com.agricultural.agricultural.mapper;
 
 import com.agricultural.agricultural.dto.MarketPlaceDTO;
-import com.agricultural.agricultural.entity.MarketPlace;
+import com.agricultural.agricultural.domain.entity.MarketPlace;
 import org.mapstruct.*;
 
 @Mapper(componentModel = "spring", unmappedTargetPolicy = ReportingPolicy.IGNORE)

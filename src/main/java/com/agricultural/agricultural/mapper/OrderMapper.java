@@ -1,7 +1,7 @@
 package com.agricultural.agricultural.mapper;
 
 import com.agricultural.agricultural.dto.OrderDTO;
-import com.agricultural.agricultural.entity.Order;
+import com.agricultural.agricultural.domain.entity.Order;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 

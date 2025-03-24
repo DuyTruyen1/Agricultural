@@ -1,4 +1,4 @@
-package com.agricultural.agricultural.entity;
+package com.agricultural.agricultural.domain.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.MappedSuperclass;

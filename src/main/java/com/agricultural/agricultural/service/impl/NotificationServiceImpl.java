@@ -1,6 +1,6 @@
 package com.agricultural.agricultural.service.impl;
 
-import com.agricultural.agricultural.entity.Notification;
+import com.agricultural.agricultural.domain.entity.Notification;
 import com.agricultural.agricultural.repository.NotificationRepository;
 import com.agricultural.agricultural.service.INotificationService;
 import lombok.RequiredArgsConstructor;

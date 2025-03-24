@@ -2,6 +2,8 @@ package com.agricultural.agricultural.controller.user;
 
 import com.agricultural.agricultural.dto.ForumPostDTO;
 import com.agricultural.agricultural.service.impl.ForumPostService;
+import com.agricultural.agricultural.service.impl.ForumReplyServiceImpl;
+import com.agricultural.agricultural.service.impl.ShareServiceImpl;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -15,6 +17,9 @@ import java.util.List;
 @RequiredArgsConstructor
 public class ForumPostController {
     private final ForumPostService forumPostService;
+    private ForumReplyServiceImpl forumReplyService;
+
+    private ShareServiceImpl shareService;
 
     // Tạo bài viết
     @PostMapping("/create")

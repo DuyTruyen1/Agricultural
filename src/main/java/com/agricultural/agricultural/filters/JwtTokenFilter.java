@@ -1,7 +1,7 @@
 package com.agricultural.agricultural.filters;
 
 import com.agricultural.agricultural.components.JwtTokenUtil;
-import com.agricultural.agricultural.entity.User;
+import com.agricultural.agricultural.domain.entity.User;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

@@ -1,32 +1,33 @@
-package com.agricultural.agricultural.entity;
+package com.agricultural.agricultural.domain.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import org.springframework.data.annotation.Id;
+
+import java.util.Date;
 
 @Entity
-@Table(name = "users_addresses")
+@Table(name = "password_reset_tokens")
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-
-public class UserAddress {
+public class PasswordResetToken {
+    @jakarta.persistence.Id
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private Long id;
 
-    @ManyToOne(fetch = FetchType.LAZY) // Một người có nhiều địa chỉ
+    @Column(nullable = false, unique = true)
+    private String token;
+
+    @OneToOne
     @JoinColumn(name = "user_id", nullable = false)
     private User user;
 
     @Column(nullable = false)
-    private String address;
-
-    private String city;
-    private String country;
-    private String postalCode;
-
+    private Date expiryDate;
 }

@@ -1,6 +1,6 @@
 package com.agricultural.agricultural.repository;
 
-import com.agricultural.agricultural.entity.Notification;
+import com.agricultural.agricultural.domain.entity.Notification;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;

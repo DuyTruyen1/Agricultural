@@ -1,8 +1,8 @@
 package com.agricultural.agricultural.mapper;
 
 import com.agricultural.agricultural.dto.UserDTO;
-import com.agricultural.agricultural.entity.Role;
-import com.agricultural.agricultural.entity.User;
+import com.agricultural.agricultural.domain.entity.Role;
+import com.agricultural.agricultural.domain.entity.User;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.Named;

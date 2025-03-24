@@ -1,8 +1,8 @@
 package com.agricultural.agricultural.service.impl;
 
 import com.agricultural.agricultural.dto.MarketPlaceDTO;
-import com.agricultural.agricultural.entity.MarketPlace;
-import com.agricultural.agricultural.entity.User;
+import com.agricultural.agricultural.domain.entity.MarketPlace;
+import com.agricultural.agricultural.domain.entity.User;
 import com.agricultural.agricultural.exception.BadRequestException;
 import com.agricultural.agricultural.exception.ResourceNotFoundException;
 import com.agricultural.agricultural.mapper.MarketPlaceMapper;

@@ -1,7 +1,7 @@
 package com.agricultural.agricultural.service;
 
 import com.agricultural.agricultural.dto.*;
-import com.agricultural.agricultural.entity.OrderStatus;
+import com.agricultural.agricultural.domain.enumeration.OrderStatus;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 

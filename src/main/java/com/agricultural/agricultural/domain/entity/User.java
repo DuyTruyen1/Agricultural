@@ -1,4 +1,4 @@
-package com.agricultural.agricultural.entity;
+package com.agricultural.agricultural.domain.entity;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import jakarta.persistence.*;
@@ -45,6 +45,9 @@ public class User extends BaseEntity implements UserDetails {
 
     @Pattern(regexp = "^(\\+?\\d{1,3})?\\d{10}$", message = "Số điện thoại không hợp lệ") // Hỗ trợ số điện thoại quốc tế
     private String phone;
+
+    @Column(name = "image_url")
+    private String imageUrl = "default_profile.png"; // Giá trị mặc định
 
     @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "role_id" , referencedColumnName = "id")

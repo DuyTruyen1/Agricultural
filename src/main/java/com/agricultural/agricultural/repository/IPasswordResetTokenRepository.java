@@ -1,6 +1,6 @@
 package com.agricultural.agricultural.repository;
 
-import com.agricultural.agricultural.entity.PasswordResetToken;
+import com.agricultural.agricultural.domain.entity.PasswordResetToken;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

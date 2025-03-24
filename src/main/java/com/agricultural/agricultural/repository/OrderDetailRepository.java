@@ -1,6 +1,6 @@
 package com.agricultural.agricultural.repository;
 
-import com.agricultural.agricultural.entity.OrderDetail;
+import com.agricultural.agricultural.domain.entity.OrderDetail;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

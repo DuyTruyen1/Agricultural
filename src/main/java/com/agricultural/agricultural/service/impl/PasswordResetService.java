@@ -1,7 +1,7 @@
 package com.agricultural.agricultural.service.impl;
 
-import com.agricultural.agricultural.entity.PasswordResetToken;
-import com.agricultural.agricultural.entity.User;
+import com.agricultural.agricultural.domain.entity.PasswordResetToken;
+import com.agricultural.agricultural.domain.entity.User;
 import com.agricultural.agricultural.repository.IPasswordResetTokenRepository;
 import com.agricultural.agricultural.repository.IUserRepository;
 import com.agricultural.agricultural.service.IPasswordResetService;
